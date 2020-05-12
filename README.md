@@ -2,6 +2,8 @@
   <h1><code>space-invaders-wasm</code></h1>
 </div>
 
+# Online demo
+https://knightpp.github.io/space-invaders-wasm/
 ## About
 Ported version of [space-invaders using SDL2](https://github.com/knightpp/rs8080)
 
@@ -9,7 +11,7 @@ Ported version of [space-invaders using SDL2](https://github.com/knightpp/rs8080
 `wasm-pack`, `npm` and Rust compiler.
 
 You can install `wasm-pack` in two ways. `cargo install wasm-pack` or from [the site](https://rustwasm.github.io/wasm-pack/)
-## Usage
+## How to run localy
 
 ```
 git clone https://github.com/knightpp/space-invaders-wasm.git
