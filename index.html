@@ -42,6 +42,14 @@
     li {
       float: left;
     }
+    #controls{
+      top: 0px;
+      left: 0px;
+      margin: 0;
+      padding: 0;
+      position: absolute;
+
+    }
   </style>
 </head>
 
@@ -53,7 +61,15 @@
   <ul>
     <li><input type="file" id="file-input"></input></li>
     <li><a href="#">GitHub repo</a></li>
+    <!-- <li><a onclick="alert('C - insert coin')">How to contorls</a></li> -->
   </ul>
+  <div id="controls"><pre>
+    To start type `C` then `1` or `2`
+num 1 or 2 - select 1/2 player mode
+C - Insert coin
+A, D - move left/right
+Space - shoot
+  </pre></div>
   <script src="./bootstrap.js"></script>
 </body>
 
